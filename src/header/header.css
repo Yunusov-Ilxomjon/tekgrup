@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    width: 100%;
+    height: auto;
+    background-color: #0C4DA1;
+    padding: 0 100px;
+}
+
+.header {
+    max-width: 1536px;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+
+    ul {
+        display: flex;
+        gap: 20px;
+align-items: center;
+        li {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+/* === RESPONSIVE HEADER === */
+
+/* 768px gacha — ko‘rinmasin */
+@media (max-width: 768px) {
+  .header-container {
+    display: none;
+  }
+}
+
+/* 480px gacha — qaytib ko‘rinsin */
+@media (max-width: 480px) {
+  .header-container {
+    display: none; /* yoki flex */
+  }
+}
