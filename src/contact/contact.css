@@ -1,0 +1,303 @@
+/* === RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  max-width: 1536px;
+  width: 100%;
+}
+
+/* === BACK === */
+.contact-back {
+  width: 100%;
+  height: 350px;
+  background: linear-gradient(rgba(38, 139, 197, 0.324)),
+    url(/public/contact-img/contact-back.jpg) no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.contact-back h1 {
+  color: white;
+  font-size: 55px;
+}
+
+.contact-back p {
+  color: white;
+  font-size: 30px;
+}
+
+/* === MAIN WRAP === */
+.contact-registr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 100px;
+  padding: 50px 50px 100px 50px;
+}
+
+.title,
+.registr {
+  flex: 1 1 48%;
+  min-width: 300px;
+  max-width: 650px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.208);
+  padding: 40px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title-p {
+  color: #52BAA8;
+  font-size: 20px;
+}
+
+.title-h1 {
+  font-size: 40px;
+}
+
+.title-contents {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.title-sycle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #D4F8C4;
+  flex-shrink: 0;
+}
+
+.title-info h1 {
+  color: gray;
+  font-size: 20px;
+}
+
+.title-info p {
+  color: gray;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* === FORM === */
+.registr h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form .form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-form .form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #1d273b;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #009F7F;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #0a57b8;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #074a9f;
+}
+
+/* === RESPONSIVE === */
+
+/* Planshet */
+@media (max-width: 1024px) {
+  .contact-back {
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .contact-back h1 {
+    font-size: 42px;
+  }
+
+  .contact-back p {
+    font-size: 24px;
+  }
+
+  .contact-registr {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 80px 20px;
+  }
+
+  .title,
+  .registr {
+    width: 100%;
+    max-width: 700px;
+    padding: 30px;
+  }
+
+  .title-p {
+    font-size: 18px;
+  }
+
+  .title-h1 {
+    font-size: 32px;
+  }
+
+  .title-sycle {
+    width: 50px;
+    height: 50px;
+  }
+
+  .title-info h1 {
+    font-size: 18px;
+  }
+
+  .title-info p {
+    font-size: 14px;
+  }
+
+  .registr h1 {
+    font-size: 32px;
+  }
+
+  .contact-form .form-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-form label {
+    margin-bottom: 8px;
+  }
+}
+
+/* Kichik planshet */
+@media (max-width: 768px) {
+  .contact-back h1 {
+    font-size: 36px;
+  }
+
+  .contact-back p {
+    font-size: 20px;
+  }
+
+  .title-p {
+    font-size: 16px;
+  }
+
+  .title-h1 {
+    font-size: 28px;
+  }
+
+  .title-sycle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .title-info h1 {
+    font-size: 16px;
+  }
+
+  .title-info p {
+    font-size: 14px;
+  }
+
+  .registr h1 {
+    font-size: 28px;
+  }
+}
+
+/* Telefon */
+@media (max-width: 480px) {
+  .contact-back h1 {
+    font-size: 28px;
+  }
+
+  .contact-back p {
+    font-size: 16px;
+  }
+
+  .title-p {
+    font-size: 14px;
+  }
+
+  .title-h1 {
+    font-size: 24px;
+  }
+
+  .title-sycle {
+    width: 30px;
+    height: 30px;
+  }
+
+  .title-info h1 {
+    font-size: 14px;
+  }
+
+  .title-info p {
+    font-size: 12px;
+  }
+
+  .registr h1 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,139 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Umumiy container */
+.new-container {
+  max-width: 1536px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Orqa fon qismi */
+.nav-bacground {
+  width: 100%;
+  height: 350px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), 
+      url('/public/news-img/img-0.jpg') no-repeat center center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bacground h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+               'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Cards container — GRID bilan */
+.news-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 50px 100px;
+  box-sizing: border-box;
+  color: gray;
+}
+
+/* Har bir card */
+.news-card {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.news-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.news-card h1 {
+  font-size: 18px;
+  color: rgb(108, 98, 98);
+  margin-top: 15px;
+}
+
+.news-card p {
+  font-size: 14px;
+}
+
+.news-card p:nth-of-type(2) {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.news-card h3 {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.news-card a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: #009F7F;
+}
+
+/* Responsive: Orqa fon matni */
+@media (max-width: 768px) {
+  .nav-bacground h1 {
+    font-size: 40px;
+  }
+}
+
+/* Responsive: Cards container padding */
+@media (max-width: 1024px) {
+  .news-cards {
+    padding: 40px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .news-cards {
+    padding: 20px;
+  }
+
+  .news-card h1 {
+    font-size: 16px;
+  }
+
+  .news-card p {
+    font-size: 12px;
+  }
+
+  .news-card p:nth-of-type(2) {
+    font-size: 14px;
+  }
+
+  .news-card h3 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .news-cards {
+    padding: 0;
+  }
+
+  .nav-bacground {
+    height: 200px;
+  }
+
+  .nav-bacground h1 {
+    font-size: 28px;
+  }
+}

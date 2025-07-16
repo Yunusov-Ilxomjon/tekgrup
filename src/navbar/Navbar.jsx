@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,11 +43,11 @@ const Navbar = () => {
 
         <div className="nav-links">
           <ul>
-            <li><a href="/" className={activeLink === 'Asosiy' ? 'active' : ''} onClick={() => handleLinkClick('Asosiy')}>Asosiy</a></li>
-            <li><a href="/news" className={activeLink === 'Yangiliklar' ? 'active' : ''} onClick={() => handleLinkClick('Yangiliklar')}>Yangiliklar</a></li>
-            <li><a href="/products" className={activeLink === 'Mahsulotlar' ? 'active' : ''} onClick={() => handleLinkClick('Mahsulotlar')}>Mahsulotlar</a></li>
-            <li><a href="/about" className={activeLink === 'Biz haqimizda' ? 'active' : ''} onClick={() => handleLinkClick('Biz haqimizda')}>Biz haqimizda</a></li>
-            <li><a href="/contact" className={activeLink === "Bog'lanish" ? 'active' : ''} onClick={() => handleLinkClick("Bog'lanish")}>Bog'lanish</a></li>
+            <li><Link to="/" className={activeLink === 'Asosiy' ? 'active' : ''} onClick={() => handleLinkClick('Asosiy')}>Asosiy</Link></li>
+            <li><Link to="/news" className={activeLink === 'Yangiliklar' ? 'active' : ''} onClick={() => handleLinkClick('Yangiliklar')}>Yangiliklar</Link></li>
+            <li><Link to="/products" className={activeLink === 'Mahsulotlar' ? 'active' : ''} onClick={() => handleLinkClick('Mahsulotlar')}>Mahsulotlar</Link></li>
+            <li><Link to="/about" className={activeLink === 'Biz haqimizda' ? 'active' : ''} onClick={() => handleLinkClick('Biz haqimizda')}>Biz haqimizda</Link></li>
+            <li><Link to="/contact" className={activeLink === "Bog'lanish" ? 'active' : ''} onClick={() => handleLinkClick("Bog'lanish")}>Bog'lanish</Link></li>
           </ul>
 
           <select
@@ -64,11 +65,11 @@ const Navbar = () => {
       {isOpen && (
         <div className="mobile-menu">
           <ul>
-            <li><a href="/" className={activeLink === 'Asosiy' ? 'active' : ''} onClick={() => handleLinkClick('Asosiy')}>Asosiy</a></li>
-            <li><a href="/news" className={activeLink === 'Yangiliklar' ? 'active' : ''} onClick={() => handleLinkClick('Yangiliklar')}>Yangiliklar</a></li>
-            <li><a href="/products" className={activeLink === 'Mahsulotlar' ? 'active' : ''} onClick={() => handleLinkClick('Mahsulotlar')}>Mahsulotlar</a></li>
-            <li><a href="/about" className={activeLink === 'Biz haqimizda' ? 'active' : ''} onClick={() => handleLinkClick('Biz haqimizda')}>Biz haqimizda</a></li>
-            <li><a href="/contact" className={activeLink === "Bog'lanish" ? 'active' : ''} onClick={() => handleLinkClick("Bog'lanish")}>Bog'lanish</a></li>
+            <li><Link to="/" className={activeLink === 'Asosiy' ? 'active' : ''} onClick={() => handleLinkClick('Asosiy')}>Asosiy</Link></li>
+            <li><Link to="/news" className={activeLink === 'Yangiliklar' ? 'active' : ''} onClick={() => handleLinkClick('Yangiliklar')}>Yangiliklar</Link></li>
+            <li><Link to="/products" className={activeLink === 'Mahsulotlar' ? 'active' : ''} onClick={() => handleLinkClick('Mahsulotlar')}>Mahsulotlar</Link></li>
+            <li><Link to="/about" className={activeLink === 'Biz haqimizda' ? 'active' : ''} onClick={() => handleLinkClick('Biz haqimizda')}>Biz haqimizda</Link></li>
+            <li><Link to="/contact" className={activeLink === "Bog'lanish" ? 'active' : ''} onClick={() => handleLinkClick("Bog'lanish")}>Bog'lanish</Link></li>
           </ul>
 
           <div className="mobile-langs">
