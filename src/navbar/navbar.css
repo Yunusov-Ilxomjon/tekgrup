@@ -86,6 +86,12 @@ body {
  margin-top: 15px;
  background-color: #009F7F;
 color: white;
+border: none;
+}
+
+option{
+  background-color: #ddd;
+  color: black;
 }
 
 .nav-links a.active {
