@@ -26,6 +26,7 @@ body {
   z-index: 10;
 }
 
+
 .nav-left {
   display: flex;
   align-items: center;
@@ -81,6 +82,9 @@ body {
 .langs {
   padding: 5px 10px;
   font-size: 16px;
+  border-radius: 55px;
+ margin-top: 15px;
+
 }
 
 .nav-links a.active {
@@ -207,7 +211,7 @@ body {
 @media(max-width: 480px) {
 
   .nav-container{
-    padding: 0;
+    padding: 20px;
   }
 
   .nav-logo {
