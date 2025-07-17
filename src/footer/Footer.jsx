@@ -6,7 +6,6 @@ import './footer.css';
 
 const Footer = () => {
     const { t } = useTranslation();
-
     return (
         <div className='footer-container'>
             <div className="footer-top">
