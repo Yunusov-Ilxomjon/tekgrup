@@ -2,28 +2,30 @@ import React, { useEffect } from 'react';
 
 const YandexMap = () => {
   useEffect(() => {
-    // Agar script allaqachon yuklangan bo‘lsa, qayta yuklanmasin
-    if (!window.ymaps) {
-      const script = document.createElement('script');
-      script.src = 'https://api-maps.yandex.ru/2.1/?lang=ru_RU';
-      script.type = 'text/javascript';
-      script.onload = initMap;
-      document.head.appendChild(script);
-    } else {
-      initMap();
-    }
+    const loadMapScript = () => {
+      return new Promise((resolve) => {
+        if (window.ymaps) {
+          resolve();
+        } else {
+          const script = document.createElement('script');
+          script.src = 'https://api-maps.yandex.ru/2.1/?lang=ru_RU';
+          script.type = 'text/javascript';
+          script.onload = resolve;
+          document.head.appendChild(script);
+        }
+      });
+    };
 
-    function initMap() {
+    loadMapScript().then(() => {
       window.ymaps.ready(() => {
-        // Xarita element bo‘sh bo‘lsa yoki avval yaratilmagan bo‘lsa
-        if (!document.getElementById('map').hasChildNodes()) {
+        if (document.getElementById('map') && !document.getElementById('map').hasChildNodes()) {
           new window.ymaps.Map('map', {
             center: [41.311151, 69.279737],
             zoom: 12,
           });
         }
       });
-    }
+    });
   }, []);
 
   return (

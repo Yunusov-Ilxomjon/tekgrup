@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+   overflow-x: hidden;
+}
+
 .about-container {
     max-width: 1536px;
     width: 100%;

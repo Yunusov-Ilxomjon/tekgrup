@@ -1,0 +1,120 @@
+{
+    "about": {
+        "title": "Biz haqimizda",
+        "subtitle": "Bizning vazifamiz",
+        "description": "Biz mijozlarimizga eng yuqori sifatli xizmatlarni taqdim etishga intilamiz. Bizning jamoamiz tajribali va sodiq mutaxassislardan iborat.",
+        "teamTitle": "Jamoamiz",
+        "teamDescription": "Har bir a’zomiz o‘z sohasining mutaxassisi bo‘lib, sizga eng yaxshi xizmatni taklif etadi."
+    },
+    "contact": {
+        "title1": "Biz bilan bog'laning",
+        "subtitle": "Bizning xizmatlar sizga qiziqmi? Biz bilan bog'laning!",
+        "form_title": "Biz bilan Bog'laning",
+        "form_subtitle": "Hoziroq bog'laning",
+        "hr_title": "Kadrlar bo'limi",
+        "sales_title": "Sotuv bo'limi",
+        "info_title": "Qo'shimcha ma'lumot uchun",
+        "leave_message": "Bizga xabar qoldiring",
+        "name": "Ismingiz",
+        "phone": "Raqamingiz",
+        "email": "Email",
+        "message": "Xabar",
+        "message_placeholder": "Xabar qoldiring",
+        "send": "Xabarni yuborish"
+    },
+    "footer": {
+        "contactUs": "Biz bilan bog'laning",
+        "addressLine1": "Toshkent sh. Bektemir tumani",
+        "addressLine2": "Oltintopgan ko’chasi 40-uy",
+        "email": "info.uz@tekgrup.net",
+        "phone": "+998 55 515 04 15",
+        "rightsReserved": "Barcha huquqlar himoyalangan"
+    },
+    "navbar": {
+        "home": "Asosiy",
+        "news": "Yangiliklar",
+        "products": "Mahsulotlar",
+        "about": "Biz haqimizda",
+        "contact": "Bog'lanish"
+    },
+    "news": {
+        "title": "Yangiliklar",
+        "readMore": "Ko'proq o'qish",
+        "item1": {
+            "title": "I Xalqaro ilmiy-amaliy sammit",
+            "date": "Aprel 30, 2025",
+            "desc": "2025-yil 25–26 aprel kunlari Toshkent shahrida...",
+            "img": "/news-img/1.jpg"
+        },
+        "item2": {
+            "title": "ISO 9001:2015 Sertifikati olindi",
+            "date": "Mart 13, 2025",
+            "desc": "«Tek Grup Sağlık Hizmetleri» kompaniyasi...",
+            "img": "/news-img/2.png"
+        },
+        "item3": {
+            "title": "Tek Grup treninglari",
+            "date": "Aprel 30, 2025",
+            "desc": "Tek Grup jamoasi 2023-yil iyul-avgust oylarida...",
+            "img": "/news-img/3.jpg"
+        },
+        "item4": {
+            "title": "Konferensiyadan lavhalar",
+            "date": "Avgust 5, 2024",
+            "desc": "Uchrashuv davomida tibbiyotdagi yangiliklar...",
+            "img": "/news-img/4.jpg"
+        },
+        "item5": {
+            "title": "Tekgrup haqida",
+            "date": "Avgust 4, 2024",
+            "desc": "TEKGRUP xalqaro holdingi haqida...",
+            "img": "/news-img/5.jpg"
+        },
+        "item6": {
+            "title": "I Xalqaro ilmiy-amaliy sammit",
+            "date": "Aprel 30, 2025",
+            "desc": "2025-yil 25–26 aprel kunlari Toshkent shahrida...",
+            "img": "/news-img/1.jpg"
+        }
+    },
+    "products": {
+        "medicine": "Dori mahsulotlari",
+        "cosmetics": "Kosmetika mahsulotlari",
+        "equipment": "Tibbiy buyumlar"
+    },
+    "app": {
+        "welcome": "TeKgrupga xush kelibsiz",
+        "slogan": {
+            "line1": "Sog‘lom dunyo uchun",
+            "line2": "harakat qilamiz!"
+        },
+        "discover": "Biz bilan, faqat dori-darmon emas, balki keng qamrovli xizmatlarni ham kashf eting.",
+        "learn_more": "Ko'proq bilish",
+        "contact": "Bog'lanish",
+        "stats": {
+            "market": "Bozorda mavjud",
+            "exclusive": "Eksklyuziv preparatlar",
+            "workers": "Ortiq ishchilar​",
+            "partners": "Hamkorlar",
+            "clients": "Doimiy mijozlar",
+            "warehouse": "Omborlarning maydoni​"
+        },
+        "leader": {
+            "line1": "Farmasevtika industriyasida",
+            "line2": "yetakchi distribyutorlardan",
+            "line3": "birimiz",
+            "sub": "Eng yaxshi mijozlar uchun eng yaxshi xizmatlar."
+        },
+        "why_us": {
+            "subtitle": "Nega Bizni tanlashadi",
+            "title": "Eng yaxshi mijozlar uchun eng yaxshi xizmatlar.",
+            "reliable": "Ishonchlilik",
+            "safe": "Yuqori darajada xavfsiz",
+            "quality": "Vaqt bilan sinalgan sifat"
+        },
+        "partners": {
+            "title": "Bizning Hamkorlar",
+            "subtitle": "Biz eng sifatli, xavfsiz va ishonchli xizmat ko’rsatganimiz uchun hamkorlarimiz bizdan mamnunlar"
+        }
+    }
+}

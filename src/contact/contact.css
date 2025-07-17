@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body{
+   overflow-x: hidden;
+}
+
 .contact-container {
   max-width: 1536px;
   width: 100%;
@@ -186,6 +190,7 @@
     flex-direction: column;
     align-items: center;
     padding: 40px 20px 80px 20px;
+    margin-top: 60px;
   }
 
   .title,
@@ -232,6 +237,10 @@
 
 /* Kichik planshet */
 @media (max-width: 768px) {
+
+  .contact-registr{
+    margin-top: 40px;
+  }
   .contact-back h1 {
     font-size: 36px;
   }
@@ -268,6 +277,10 @@
 
 /* Telefon */
 @media (max-width: 480px) {
+.contact-registr{
+  margin-top: 20px;
+}
+  
   .contact-back h1 {
     font-size: 28px;
   }

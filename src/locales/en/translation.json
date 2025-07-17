@@ -1,0 +1,114 @@
+{
+    "about": {
+        "title": "About Us",
+        "subtitle": "Our Mission",
+        "description": "We strive to deliver the highest quality services to our clients. Our team is composed of experienced and dedicated professionals.",
+        "teamTitle": "Our Team",
+        "teamDescription": "Each member of our team is an expert in their field, ready to provide you with the best service."
+    },
+    "contact": {
+        "title1": "Contact Us",
+        "subtitle": "Interested in our services? Contact us!",
+        "form_title": "Get in Touch",
+        "form_subtitle": "Contact Now",
+        "hr_title": "HR Department",
+        "sales_title": "Sales Department",
+        "info_title": "For More Information",
+        "leave_message": "Leave Us a Message",
+        "name": "Your Name",
+        "phone": "Your Phone",
+        "email": "Email",
+        "message": "Message",
+        "message_placeholder": "Leave a message",
+        "send": "Send Message"
+    },
+    "footer": {
+        "contactUs": "Contact Us",
+        "addressLine1": "Bektemir district, Tashkent",
+        "addressLine2": "Oltintopgan street, house 40",
+        "email": "info.uz@tekgrup.net",
+        "phone": "+998 55 515 04 15",
+        "rightsReserved": "All rights reserved"
+    },
+    "navbar": {
+        "home": "Home",
+        "news": "News",
+        "products": "Products",
+        "about": "About Us",
+        "contact": "Contact"
+    },
+    "news": {
+        "title": "News",
+        "readMore": "Read more",
+        "item1": {
+            "title": "1st International Scientific-Practical Summit",
+            "date": "April 30, 2025",
+            "desc": "On April 25–26, 2025, in the city of Tashkent...",
+            "img": "/news-img/1.jpg"
+        },
+        "item2": {
+            "title": "ISO 9001:2015 Certificate Obtained",
+            "date": "March 13, 2025",
+            "desc": "The company “Tek Grup Sağlık Hizmetleri”...",
+            "img": "/news-img/2.png"
+        },
+        "item3": {
+            "title": "Tek Grup Trainings",
+            "date": "April 30, 2025",
+            "desc": "In July–August 2023, the Tek Grup team...",
+            "img": "/news-img/3.jpg"
+        },
+        "item4": {
+            "title": "Moments from the Conference",
+            "date": "August 5, 2024",
+            "desc": "During the meeting, innovations in medicine were presented...",
+            "img": "/news-img/4.jpg"
+        },
+        "item5": {
+            "title": "About Tekgrup",
+            "date": "August 4, 2024",
+            "desc": "About the international TEKGRUP holding...",
+            "img": "/news-img/5.jpg"
+        }
+    },
+    "products": {
+        "medicine": "Medicinal products",
+        "cosmetics": "Cosmetic products",
+        "equipment": "Medical supplies"
+    },
+    "app": {
+        "welcome": "Welcome to TeKgrup",
+        "slogan": {
+            "line1": "Moving toward a",
+            "line2": "healthier world!"
+        },
+        "discover": "With us, discover not only medicines but also a wide range of services.",
+        "learn_more": "Learn more",
+        "contact": "Contact",
+        "stats": {
+            "market": "Market Presence",
+            "exclusive": "Exclusive Medications",
+            "workers": "Employees",
+            "partners": "Partners",
+            "clients": "Regular Clients",
+            "warehouse": "Warehouse Area"
+        },
+        "leader": {
+            "line1": "One of the leading",
+            "line2": "distributors in the",
+            "line3": "pharmaceutical industry",
+            "sub": "The best services for the best clients."
+        },
+        "why_us": {
+            "subtitle": "Why Choose Us",
+            "title": "The best services for the best clients.",
+            "reliable": "Reliability",
+            "safe": "High-level Safety",
+            "quality": "Time-tested Quality"
+        },
+        "partners": {
+            "title": "Our Partners",
+            "subtitle": "Our partners are satisfied because we provide high-quality, safe, and reliable services"
+        }
+    }
+}
